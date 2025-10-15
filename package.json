@@ -1,0 +1,16 @@
+{
+  "name": "pdf-generator-service",
+  "version": "1.0.0",
+  "description": "Un service pour générer des PDF à partir de HTML en utilisant Puppeteer sur Cloud Run.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.10.0"
+  }
+}
